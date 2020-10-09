@@ -1,10 +1,12 @@
+$mainColor: lightgray;
+
 .about {
     margin: 2rem;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.5rem;
     padding: 1rem;
-    border: 0.05rem solid lightgray;
-    box-shadow:  0.4rem 0.8rem lightgray;
+    border: 0.05rem solid $mainColor;
+    box-shadow:  0.4rem 0.8rem $mainColor;
 
     .aboutMe {
         font-family: fantasy;

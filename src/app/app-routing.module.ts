@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { PostComponent } from './post/post.component';
 import { DetailsComponent } from './details/details.component';
 import { EditComponent } from './edit/edit.component';
+import { LoginComponent } from './login/login.component';
 
 
 export const routes: Routes = [
@@ -17,6 +18,7 @@ export const routes: Routes = [
   { path: 'post', component: PostComponent },
   { path: 'details', component: DetailsComponent },
   { path: 'edit', component: EditComponent },
+  { path: 'login', component: LoginComponent },
   { path: '', redirectTo: '/about', pathMatch: 'full' },
 ];
 

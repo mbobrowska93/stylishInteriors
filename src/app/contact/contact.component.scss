@@ -1,0 +1,48 @@
+$mainColor: lightgray;
+
+.contact {
+    margin: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+    padding: 1rem;
+    border: 0.05rem solid $mainColor;
+    box-shadow:  0.4rem 0.8rem $mainColor;
+
+    .contactTitle {
+        font-family: fantasy;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    .sendMessage {
+        font-weight: bold;
+        margin-top: 2rem;
+    }
+
+    .fieldTitle, .fieldEmail, .fieldMessage {
+        display: block;
+    }
+
+    .fieldTitle {
+        width: 15rem;
+    }
+
+    .fieldEmail {
+        margin-top: 1rem;
+        width: 15rem;
+    }
+
+    .fieldMessage {
+        margin-top: 1rem;
+        width: 20rem;
+        height: 10rem;
+    }
+
+    button {
+        margin-top: 1rem;
+        background-color: white;
+        border: 0.05rem solid $mainColor;
+        box-shadow:  0.1rem 0.2rem $mainColor;
+        margin-left: 8rem;
+    }
+}

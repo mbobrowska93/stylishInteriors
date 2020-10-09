@@ -1,0 +1,16 @@
+$mainColor: lightgray;
+
+.post {
+    margin: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+    padding: 1rem;
+    border: 0.05rem solid $mainColor;
+    box-shadow:  0.4rem 0.8rem $mainColor;
+
+    .postTitle {
+        font-family: fantasy;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}

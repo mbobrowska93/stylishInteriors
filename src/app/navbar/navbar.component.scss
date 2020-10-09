@@ -1,3 +1,5 @@
+$mainColor: lightgray;
+
 .interiors, .owner {
     text-align: center;
     font-family: fantasy;
@@ -15,8 +17,8 @@
 
 .navbar {
     overflow: hidden;
-    border: 0.05rem solid lightgray;
-    box-shadow:  0.2rem 0.4rem lightgray;
+    border: 0.05rem solid $mainColor;
+    box-shadow:  0.2rem 0.4rem $mainColor;
     width: 85%;
     height: 1.5rem;
     margin-left: auto;
